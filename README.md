@@ -1,37 +1,29 @@
-Jarvis: AI-Powered Virtual Assistant
+# Jarvis
 
-Description
+Jarvis is a personal assistant program that interacts with users and performs various tasks based on voice or command input. The application integrates multiple services to provide efficient automation and task management.
 
-Jarvis is an AI-powered virtual assistant designed to perform various tasks, such as answering questions, sending emails, reading news, and controlling system functions.
+## Features
+- Voice recognition for task execution
+- Database integration for storing tasks
+- Web scraping for real-time information
 
-Features
+## Requirements
+- Python 3.x
+- HTML, CSS, JavaScript for front-end
+- Database: SQLite
 
-- Speech recognition using Google Speech Recognition API
-- Natural Language Processing (NLP) for intent identification
-- Integration with various APIs for news, weather, and other information
-- Customizable settings and preferences
+## Setup
 
-Technologies Used
-
-- Python programming language
-- Google Speech Recognition API
-- NLTK and Pyttsx3 for NLP
-- News, Weather, and Email APIs
-- PyAudio, Pydub, and BeautifulSoup libraries
-
-Installation
-
-1. Clone the repository: `git clone (link unavailable)
-2. Install required libraries: pip install -r requirements.txt
-3. Configure settings and preferences in config.json
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sameer152005/Jarvis.git
+Install the required dependencies:
+bash
+Copy code
+pip install -r requirements.txt
 Usage
+To run the application, execute:
 
-1. Run the program: python (link unavailable)
-2. Interact with Jarvis using voice commands
-
-Acknowledgments
-
-- Google for Speech Recognition API
-- NLTK and Pyttsx3 developers for NLP libraries
-- API providers for news, weather, and email services
+bash
+Copy code
+python main.py
